@@ -1,0 +1,67 @@
+{
+  "id": "6b639f19-9f07-4e70-98c6-7db67fd9b1c2",
+  "name": "options",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coupon",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak: hey,you can choose any of the options .",
+            "speak: Hi!You can choose any of the options .",
+            "speak: Hey there.You can select any of the options ."
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "OFFERS FOR YOU",
+            "data": [
+              {
+                "title": "https://settings.mitrarobot.com/media/Screenshot_2019-07-18_at_8.12.22_PM.png",
+                "image_url": "https://settings.mitrarobot.com/media/New_Project_5.jpg",
+                "message": "demographics"
+              },
+              {
+                "title": "https://settings.mitrarobot.com/media/coupon2-large_kQtrhHf.jpeg",
+                "image_url": "https://settings.mitrarobot.com/media/ITC_logo_black.jpg",
+                "message": "hotel info"
+              },
+              {
+                "title": "https://settings.mitrarobot.com/media/Screenshot_2019-07-18_at_8.04.07_PM.png",
+                "image_url": "https://settings.mitrarobot.com/media/New_Project_4.jpg",
+                "message": "play quiz"
+              }
+            ]
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "disableSpeechRecognition:true"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

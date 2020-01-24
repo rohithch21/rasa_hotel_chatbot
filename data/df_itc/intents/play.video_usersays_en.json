@@ -1,0 +1,20 @@
+[
+  {
+    "id": "56a32e31-abca-4fee-830c-8b4ab34a92d1",
+    "data": [
+      {
+        "text": "Play video ",
+        "userDefined": false
+      },
+      {
+        "text": "qwerty",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

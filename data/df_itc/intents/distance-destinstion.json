@@ -1,0 +1,56 @@
+{
+  "id": "5843fd78-0b9e-4c8d-bb07-22f29c0ab977",
+  "name": "distance-destinstion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cde7cdb4-3d63-4479-a392-e11c762cebf3",
+          "required": false,
+          "dataType": "@answers",
+          "name": "answers",
+          "value": "$answers",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "028ede2d-38e7-416c-958c-7a0bf5fa1088",
+          "required": false,
+          "dataType": "@intercities",
+          "name": "intercities",
+          "value": "$intercities",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:The distance to  $intercities is  36 kilometers. To book a cab, say \"book a cab\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

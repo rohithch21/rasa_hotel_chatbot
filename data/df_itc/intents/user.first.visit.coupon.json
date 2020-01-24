@@ -1,0 +1,57 @@
+{
+  "id": "d78249cd-dd44-40a8-a435-822c5435b520",
+  "name": "user.first.visit.coupon",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.first.visit.coupon",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3dbf99dc-4525-495d-abf0-9dc771baaf53",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:You can check out your selected coupon here. I would also like to suggest you SBI Gift Card. It is a better substitute for Gift Vouchers sold by many retail houses as its use is not restricted to any particular Merchant Establishment/ Point of Sale State Bank Gift Card is available at all State Bank of India Branches."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "image:$any"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:tweet with hashtag"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

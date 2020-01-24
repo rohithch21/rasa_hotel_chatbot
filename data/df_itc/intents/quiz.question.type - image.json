@@ -1,0 +1,55 @@
+{
+  "id": "26c3c10a-f6aa-4e95-8e7e-bd0cec6714b7",
+  "parentId": "1ac26734-86fa-4add-9d4e-2a7210e1fb93",
+  "rootParentId": "1ac26734-86fa-4add-9d4e-2a7210e1fb93",
+  "name": "quiz.question.type - image",
+  "auto": true,
+  "contexts": [
+    "quizquestiontype-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quizquestiontype.quizquestiontype-image",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "308ba138-e6b3-4560-aa22-ab2d25b80141",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Look at the image and answer the question"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "image:$any"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

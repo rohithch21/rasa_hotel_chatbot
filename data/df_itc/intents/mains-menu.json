@@ -1,0 +1,43 @@
+{
+  "id": "3183d1e4-0432-4877-98ce-56f9f2e060ee",
+  "name": "mains-menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Take a look and select your main course. Let us take you on an excursion to the Dynasties of mythical China, drawing on its several millennia of culinary history back to the era of Mahjong!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "image:https://static.eazydiner.com/resized/1920X/restaurant%2F657735%2Fmenu%2Fmenu01542276730511.jpg"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:restaurant food menu"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

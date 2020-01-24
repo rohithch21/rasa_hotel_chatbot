@@ -1,0 +1,51 @@
+{
+  "id": "cc3326c2-5b22-43c0-9830-0de8b41a39b5",
+  "name": "user.logout",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.logout",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5093d5da-2f4e-4b5c-a947-53cb455b98df",
+          "required": true,
+          "dataType": "@password",
+          "name": "password",
+          "value": "$password",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "speak:Password please"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Logging out."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

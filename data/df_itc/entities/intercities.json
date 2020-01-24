@@ -1,0 +1,9 @@
+{
+  "id": "3386e219-7cfc-4fd1-a38a-471b5d04c049",
+  "name": "intercities",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

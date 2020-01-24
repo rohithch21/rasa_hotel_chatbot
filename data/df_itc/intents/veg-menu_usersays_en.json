@@ -1,0 +1,26 @@
+[
+  {
+    "id": "08d42d9a-bff8-4a64-8fe0-f9232a85311f",
+    "data": [
+      {
+        "text": "vegeterian",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ca006ce2-8069-4ea1-8e91-84d574279eb4",
+    "data": [
+      {
+        "text": "veg appetisers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

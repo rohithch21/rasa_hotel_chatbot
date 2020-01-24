@@ -1,0 +1,68 @@
+{
+  "id": "35e99520-f7dc-417f-baaa-801b6c02de22",
+  "name": "member.form.feedback",
+  "auto": true,
+  "contexts": [
+    "feedback"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "member.form.feedback",
+      "affectedContexts": [
+        {
+          "name": "feedback",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fd454f92-224a-433f-9b16-5fc353e7fb49",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "speak:Feedback"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak:Thank you for your feedback. Let me help you explore the other options.",
+            "speak:We have collected your feedback. Let me redirect you to home screen to explore more."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:options"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

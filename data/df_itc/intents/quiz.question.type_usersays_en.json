@@ -1,0 +1,26 @@
+[
+  {
+    "id": "81cbb990-cd47-4dcf-8ffc-6925fc2ddf4c",
+    "data": [
+      {
+        "text": "continue quiz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f38fcab-50cb-4fcd-8db7-f0f1dbbbca25",
+    "data": [
+      {
+        "text": "quiz question type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

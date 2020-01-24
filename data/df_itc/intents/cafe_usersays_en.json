@@ -1,0 +1,26 @@
+[
+  {
+    "id": "6b4ec2af-c502-4310-b831-77b62b27b058",
+    "data": [
+      {
+        "text": "cafe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "721dc2dd-e8cc-4cf7-a069-5b59802ffecc",
+    "data": [
+      {
+        "text": "eating places",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

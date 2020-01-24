@@ -1,0 +1,31 @@
+{
+  "id": "3900b798-d4cc-42d0-a243-595db580d59c",
+  "name": "business-center",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:At ITC, we are dedicated to serving your business needs. We offer the right blend of service, luxury, and quiet efficiency, customizing our facilities to suit your every need. Armed with amenities like telephone, high-speed Internet and efficient secretarial service, our full-fledged, fully equipped Business Center will meet all your requirements."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

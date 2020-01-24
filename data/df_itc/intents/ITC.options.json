@@ -1,0 +1,72 @@
+{
+  "id": "7184cc44-fd26-4689-837d-b85cae079aed",
+  "name": "ITC.options",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "options",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Showing hotel info"
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "Options",
+            "data": [
+              {
+                "title": "About ITC WelcomHotel",
+                "subtitle": "Discover responsible luxury",
+                "image_url": "https://settings.mitrarobot.com/media/welcome_hotel.jpg"
+              },
+              {
+                "title": "Feedback",
+                "subtitle": "Provide your valuable feedback",
+                "image_url": "https://settings.mitrarobot.com/media/FEEDBACK.jpg"
+              },
+              {
+                "title": "Amenities",
+                "subtitle": "Check out the amenities we provide",
+                "image_url": "https://settings.mitrarobot.com/media/AMENITIES.jpg"
+              },
+              {
+                "title": "Mahjong Restaurant",
+                "subtitle": "Aromas and Flavours",
+                "image_url": "https://settings.mitrarobot.com/media/restaurent_menu.jpg"
+              },
+              {
+                "title": "Club ITC",
+                "subtitle": "Sign up to earn rewards",
+                "image_url": "https://settings.mitrarobot.com/media/rewards.jpg"
+              },
+              {
+                "title": "Meetings and Events",
+                "subtitle": "Current Schedule",
+                "image_url": "https://settings.mitrarobot.com/media/events.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

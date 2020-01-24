@@ -1,0 +1,50 @@
+{
+  "id": "86172de5-fa64-4ae0-b90c-dafb6bf4f443",
+  "name": "option.navigation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "options",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak: You can enable or disable patrol"
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "Navigation",
+            "data": [
+              {
+                "title": "Enable Patrol",
+                "image_url": "https://settings.mitrarobot.com/media/start.png"
+              },
+              {
+                "title": "Disable patrol",
+                "image_url": "https://settings.mitrarobot.com/media/icons8-stop-100.png"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

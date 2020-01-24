@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d36bd8a2-d867-4889-a54a-264a03261f60",
+    "data": [
+      {
+        "text": "i want to checkout",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2bf6259f-ba91-4e88-85b8-be072202b831",
+    "data": [
+      {
+        "text": "go home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

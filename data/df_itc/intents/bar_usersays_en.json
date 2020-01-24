@@ -1,0 +1,38 @@
+[
+  {
+    "id": "35626814-cd08-4868-a4a3-041e80ec3a61",
+    "data": [
+      {
+        "text": "brewery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ffc04b04-80e7-41b8-b78b-e1fa242cd280",
+    "data": [
+      {
+        "text": "information on bar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cb30b940-2322-4984-92b1-e1228f55d6ef",
+    "data": [
+      {
+        "text": "bar info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

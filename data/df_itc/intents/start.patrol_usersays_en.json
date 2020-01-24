@@ -1,0 +1,62 @@
+[
+  {
+    "id": "89200962-e14e-47df-aa4c-4748c6c332e2",
+    "data": [
+      {
+        "text": "enable patrol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "db581545-8726-4092-9fb1-f2b8a1d02075",
+    "data": [
+      {
+        "text": "start navigation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6a439946-b65c-4dac-b857-4c641cbb945b",
+    "data": [
+      {
+        "text": "start patrol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a907a3eb-f30b-4855-b1c4-1e6276542941",
+    "data": [
+      {
+        "text": "start petrol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8863b7bb-c743-46e0-85fe-612100978e20",
+    "data": [
+      {
+        "text": "start patrolling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

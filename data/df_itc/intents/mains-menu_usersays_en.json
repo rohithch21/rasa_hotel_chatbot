@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c9aa40b3-435d-436c-aea9-3f4bba7058bb",
+    "data": [
+      {
+        "text": "main course",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2e62aeb0-1432-4b18-ae40-98c5ae97e699",
+    "data": [
+      {
+        "text": " mains menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

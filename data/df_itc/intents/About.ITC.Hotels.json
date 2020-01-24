@@ -1,0 +1,38 @@
+{
+  "id": "1ddaa56c-41ea-4c00-b258-03836a46d533",
+  "name": "About.ITC.Hotels",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "play.video",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Presenting WelcomHotel Bangalore"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "video:https://www.youtube.com/watch?v\u003dHRUxj4vC_KI\u0026feature\u003dyoutu.be\u0026t\u003d20"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "value": "pune",
+    "synonyms": [
+      "pune"
+    ]
+  },
+  {
+    "value": "hyderabad",
+    "synonyms": [
+      "hyderabad"
+    ]
+  },
+  {
+    "value": "mumbai",
+    "synonyms": [
+      "mumbai",
+      "bombay"
+    ]
+  }
+]

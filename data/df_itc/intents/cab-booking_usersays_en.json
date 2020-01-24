@@ -1,0 +1,97 @@
+[
+  {
+    "id": "4937318f-585e-422b-82c2-7f5696725f3f",
+    "data": [
+      {
+        "text": "can i get a ride?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e7d857af-d52b-462a-8d5b-aa2363ee200d",
+    "data": [
+      {
+        "text": "mg road",
+        "alias": "intercities",
+        "meta": "@intercities",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd5bd2de-3b78-413e-aaaa-48a2331caf33",
+    "data": [
+      {
+        "text": "indira nagar",
+        "alias": "intercities",
+        "meta": "@intercities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5f73936a-fb0a-49b1-add9-fe4864115c24",
+    "data": [
+      {
+        "text": "cab booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1ea444c1-5ea0-4d7c-8e52-215a982d39b7",
+    "data": [
+      {
+        "text": "book a cab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e8ca258a-a212-4c05-a4b7-bd9174eda68c",
+    "data": [
+      {
+        "text": "i would like ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " book a cab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

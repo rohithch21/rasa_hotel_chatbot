@@ -1,0 +1,48 @@
+{
+  "id": "27c52a28-9deb-4d03-94e1-05e0e6c341a3",
+  "parentId": "439c42b6-100d-4ba5-ab6c-056218ea3c4e",
+  "rootParentId": "439c42b6-100d-4ba5-ab6c-056218ea3c4e",
+  "name": "demographics - picture",
+  "auto": true,
+  "contexts": [
+    "demographics-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "demographics",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak:Before we proceed, let me take a quick picture of you",
+            "speak:You look great and I would like to record your face in my memory",
+            "speak:Aha! Bright human. let\u0027s take your picture. Smile please.",
+            "speak:You seem so photogenic. Let me take a picture of you",
+            "speak:I meet people like you quite rarely. Let me record your face in my memory."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "disableSpeechRecognition:true"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

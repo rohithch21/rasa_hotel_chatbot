@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2b913498-c343-42ce-8b60-aeae3e272962",
+    "data": [
+      {
+        "text": "red",
+        "alias": "answers",
+        "meta": "@answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21e7dca9-4426-4118-acb3-9a16ca8d5a94",
+    "data": [
+      {
+        "text": "question",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

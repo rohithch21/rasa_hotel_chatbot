@@ -1,0 +1,20 @@
+[
+  {
+    "id": "8dcc964b-1f60-444e-8a75-3c6196c5f0b8",
+    "data": [
+      {
+        "text": "user first visit coupon ",
+        "userDefined": false
+      },
+      {
+        "text": "image",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

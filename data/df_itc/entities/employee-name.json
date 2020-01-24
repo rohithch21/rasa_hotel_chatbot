@@ -1,0 +1,9 @@
+{
+  "id": "f557e9de-e354-40c2-9feb-dc5bb4ebe30d",
+  "name": "employee-name",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": "61904ac6-455e-485c-b553-aa0729cf9558",
+  "name": "male.suggestion.product.40+",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "options",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Greetings Sir, I can interest you with our amenities specifically designed for you."
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "Options",
+            "data": [
+              {
+                "title": "Business center",
+                "subtitle": "Get your business going",
+                "image_url": "http://www.vatikabusinesscentre.com/blog/wp-content/uploads/2012/11/Business-Centre.jpg"
+              },
+              {
+                "title": "Bar",
+                "subtitle": "Drink and party with friends",
+                "image_url": "https://file.videopolis.com/D/d9ec7f65-c5e7-40f0-8c43-62f4e14176f1/8724.11756.kolkata.itc-sonar-kolkata.amenity.bar-Ta6wj5A3-17440-1280x720.jpeg"
+              },
+              {
+                "title": "Travel Center",
+                "subtitle": "All your travel needs in one place",
+                "image_url": "https://www.flightcentre.ca/blog/wp-content/uploads/2017/09/JPEG-HR-FLIGHT-CENTRE-8-620x350.jpg"
+              },
+              {
+                "title": "Swimming Pool",
+                "subtitle": "Relax in our pools.. ",
+                "image_url": "https://www.riomacau.com/wp-content/uploads/2018/02/swimmingpool.jpg"
+              },
+              {
+                "title": "Recreation and entertainment ",
+                "subtitle": "Movie options and Activites",
+                "image_url": "https://travelandleisureindia.in/wp-content/uploads/2019/02/A-Venetian-Surprise-Feature.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

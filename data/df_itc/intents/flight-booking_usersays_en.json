@@ -1,0 +1,195 @@
+[
+  {
+    "id": "5a87558f-e068-4fd6-a786-ce156fab6c9c",
+    "data": [
+      {
+        "text": "book a flight ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "alias": "answers",
+        "meta": "@answers",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "34512837-4eb7-467e-aca2-a654ed5341f9",
+    "data": [
+      {
+        "text": "book a flight ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "alias": "answers",
+        "meta": "@answers",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hyderabad",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f8a52092-dbff-441b-81db-6387450cda65",
+    "data": [
+      {
+        "text": "booka flight ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "alias": "answers",
+        "meta": "@answers",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "chennai",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "54177ae4-17ed-4f21-aeb4-d28dce92733d",
+    "data": [
+      {
+        "text": "reserve a flight ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "alias": "answers",
+        "meta": "@answers",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "los angeles",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "343d26f2-a5d7-4df8-bf28-0112ae46f5a2",
+    "data": [
+      {
+        "text": "book a flight ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "alias": "answers",
+        "meta": "@answers",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "chennai",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6b3b906-e859-403f-ad55-02103d96ae8f",
+    "data": [
+      {
+        "text": "i would like ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " book a flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a2a5a2be-24aa-4b59-b394-bf3b6f5d392a",
+    "data": [
+      {
+        "text": "book a flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "id": "e29d5fef-2c01-4f9b-861e-2cd915dae774",
+  "name": "user.revisit.suggestion.product",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "options",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "166db679-fb9e-4c42-87bf-a49cb8deed41",
+          "required": true,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "cdfb08d1-e5e5-48dc-bfaa-4bf5ce7fb2d6",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak:$gender $any , Fabelle is a premium brand of chocolates made from the best cocoa from around the world to give your tastebuds a treat of tasing the real chocolate. Feel free to get a free sample and I am sure you will want to have more.",
+            "speak:$gender $any, Here at ITC we not only care about your wellness but also your experience, You can explore and engage in our world-class In-house entrainment avenues or try out the refreshing spa that is curated to help you relax and dwell in the ultimate marquee experience.",
+            "speak:$gender $any, At ITC we are dedicated to serving your business needs. We offer the right blend of service, luxury, and quiet efficiency, customizing our facilities to suit your every need. Armed with amenities like telephone, high-speed Internet and efficient secretarial service, our full-fledged, fully equipped Business Centre will meet all your requirements.",
+            "speak:$gender $any, You got to check out our pool, it is a perfect spot to enjoy a cool drink on a hot summer’s day for everyone in the family. If you’re looking to mix up your morning routine, the pool also offers an assortment of aquatic fitness options including water aerobics, fitting for any range or ability. Looking for some more fun to soak up in the sun? Serve up an energizing experience every day at our pool.",
+            "speak:$gender $any, nwind after a long day at our Bar at ITC Hotels. We serve the choicest of malts, liquors and imported spirits which guarantees to lift up your mood. Relax and sip on your favorite drinks at this elegant bar with relaxed seating."
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "Options",
+            "data": [
+              {
+                "title": "Business center",
+                "subtitle": "Get your business going",
+                "image_url": "http://www.vatikabusinesscentre.com/blog/wp-content/uploads/2012/11/Business-Centre.jpg"
+              },
+              {
+                "title": "Bar",
+                "subtitle": "Drink and party with friends",
+                "image_url": "https://file.videopolis.com/D/d9ec7f65-c5e7-40f0-8c43-62f4e14176f1/8724.11756.kolkata.itc-sonar-kolkata.amenity.bar-Ta6wj5A3-17440-1280x720.jpeg"
+              },
+              {
+                "title": "Chocolate",
+                "subtitle": "Premium chocolates from ITC",
+                "image_url": "http://www.fabelle.in/chocolatebars/assets/images/bars/bar02.jpg"
+              },
+              {
+                "title": "Swimming Pool",
+                "subtitle": "Relax in our pools.. ",
+                "image_url": "https://www.riomacau.com/wp-content/uploads/2018/02/swimmingpool.jpg"
+              },
+              {
+                "title": "Recreation and entertainment ",
+                "subtitle": "Movie options and Activites",
+                "image_url": "https://travelandleisureindia.in/wp-content/uploads/2019/02/A-Venetian-Surprise-Feature.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ad3cd579-19b3-450f-bff9-35765cde4417",
+    "data": [
+      {
+        "text": "disable patrol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a01fc8b0-30b2-464c-b332-84b831a947d2",
+    "data": [
+      {
+        "text": "stop patrolling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5e6385ba-5d1d-4c09-94b7-699536539199",
+    "data": [
+      {
+        "text": "stop petrol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd8776d1-2cbf-49f1-932c-e380bc9ac2a7",
+    "data": [
+      {
+        "text": "stop patrol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

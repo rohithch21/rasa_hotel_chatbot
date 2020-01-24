@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c2baed2a-02a1-4b8e-81b5-b93ca56b676a",
+    "data": [
+      {
+        "text": "Talk to a human",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d85f6d7a-5f02-4d0f-ad85-2fc922c5e7a0",
+    "data": [
+      {
+        "text": "Talk to expert",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "173d8b1e-4d50-439e-8992-68297b1ddad7",
+    "data": [
+      {
+        "text": "Phone home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

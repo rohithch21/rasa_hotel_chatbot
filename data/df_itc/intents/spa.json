@@ -1,0 +1,31 @@
+{
+  "id": "70b63ee4-59ce-4173-96ad-8e3fb457f85c",
+  "name": "spa",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Treat yourself with the luxuriously soothing environment and welcoming therapists that will help you relax. You have an option to choose and indulge from a comprehensive wellness menu that will uplift your tired body and soul. Our catalog is catered with skilled therapists, who are dedicated to delivering the best-in-class experience."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

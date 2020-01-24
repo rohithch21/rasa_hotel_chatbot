@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1dede31b-9aab-447b-845c-b85937742a7f",
+    "data": [
+      {
+        "text": "pool info",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "8d57e001-7b63-473c-b775-77314e755185",
+    "data": [
+      {
+        "text": "pool",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01007422-e2b7-4aa4-9cef-db9b6dafd103",
+    "data": [
+      {
+        "text": "swimming pool",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

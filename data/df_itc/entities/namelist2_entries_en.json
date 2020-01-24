@@ -1,0 +1,14 @@
+[
+  {
+    "value": "employee",
+    "synonyms": [
+      "employee"
+    ]
+  },
+  {
+    "value": "guest",
+    "synonyms": [
+      "guest"
+    ]
+  }
+]

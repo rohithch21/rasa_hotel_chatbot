@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c825c9ac-aab9-495b-b02d-25b13b42be3d",
+    "data": [
+      {
+        "text": "amenities menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3529e5e2-7089-4b7a-8cbe-170619a6f19e",
+    "data": [
+      {
+        "text": "amenities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

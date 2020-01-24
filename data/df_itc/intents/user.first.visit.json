@@ -1,0 +1,51 @@
+{
+  "id": "91c1be6d-f84b-44d4-958b-b26d34791e5b",
+  "name": "user.first.visit",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "userregister.userregister-visitor",
+      "affectedContexts": [
+        {
+          "name": "visitorfirstvisit",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8365b787-5539-4839-81bc-5151ab895aa5",
+          "required": false,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Hello $gender."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

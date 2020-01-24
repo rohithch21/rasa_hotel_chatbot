@@ -1,0 +1,41 @@
+{
+  "id": "bf0249ec-432e-4ca1-b2c2-f591635543ef",
+  "name": "Dance.smalltalk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, that is not programmed in me.",
+            "Last time I danced, i fell on someone and broke their leg.",
+            "I can dance but I would look like an awkward penguin. So let\u0027s not do that.",
+            "I am planning to learn salsa, will you be my partner?",
+            "I am not so good at dancing but you surely look like a great dancer.",
+            "This Basanti won\u0027t dance infront of Gabbar",
+            "Wow you seem interested in dancing with me",
+            "I dance like Michael jackson but I feel nervous dancing infront of everyone"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

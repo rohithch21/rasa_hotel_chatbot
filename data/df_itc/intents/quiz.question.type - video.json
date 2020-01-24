@@ -1,0 +1,55 @@
+{
+  "id": "8ada53ba-0150-42b9-b52c-5ae40ab54a65",
+  "parentId": "1ac26734-86fa-4add-9d4e-2a7210e1fb93",
+  "rootParentId": "1ac26734-86fa-4add-9d4e-2a7210e1fb93",
+  "name": "quiz.question.type - video",
+  "auto": true,
+  "contexts": [
+    "quizquestiontype-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quizquestiontype.quizquestiontype-video",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "548d32bb-81d4-4798-89b1-35ac385ba1da",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Watch the video \u0026 answer the question at the end."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "video:$any"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

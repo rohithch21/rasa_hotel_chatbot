@@ -1,0 +1,31 @@
+{
+  "id": "6552ed75-6b69-4356-88d7-d3b6138f1508",
+  "name": "bar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Unwind after a long day at our Bar at ITC Hotels. We serve the choicest of malts, liquors and imported spirits which guarantees to lift up your mood. Relax and sip on your favorite drinks at this elegant bar with relaxed seating."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

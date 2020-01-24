@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d240c52b-bb07-4fdc-afc2-4ab86bcf7df1",
+    "data": [
+      {
+        "text": "activities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66955e21-72a6-40d1-b526-46b5d34516f0",
+    "data": [
+      {
+        "text": "movies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98e46f52-69d6-4c59-8a5d-72d1da9ff7d0",
+    "data": [
+      {
+        "text": "entertainment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

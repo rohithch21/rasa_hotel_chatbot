@@ -1,0 +1,43 @@
+{
+  "id": "9ca31cfb-baba-4467-8df3-572a8ea1637b",
+  "name": "nonveg-appetiser-menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Take a look and pick your non vegetarian appetizers. Let us take you on an excursion to the Dynasties of mythical China, drawing on its several millennia of culinary history back to the era of Mahjong!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "image:https://static.eazydiner.com/resized/1920X/restaurant%2F657735%2Fmenu%2Fmenu51542276733107.jpg"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:restaurant food menu"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

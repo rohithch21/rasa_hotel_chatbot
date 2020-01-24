@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c8611de1-f31f-41dd-9341-ae07b4da9992",
+    "data": [
+      {
+        "text": "non-vegetarain appetisers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8300901e-a4a4-470b-8254-0a878967ec6f",
+    "data": [
+      {
+        "text": "show me the non-veg appetisers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a6885816-199b-4b2a-95b4-3f0e2ad458d5",
+    "data": [
+      {
+        "text": "non veg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f6aad4a3-5b47-4454-ae6a-50c3f56612d3",
+    "data": [
+      {
+        "text": "Appetisers Non Vegetarian",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

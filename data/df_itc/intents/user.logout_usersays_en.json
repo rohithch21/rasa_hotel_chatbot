@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fea8ca8f-7981-4997-b5d6-3ae7a0a47449",
+    "data": [
+      {
+        "text": "talk to the hand",
+        "alias": "password",
+        "meta": "@password",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "493723bc-7f58-46c7-9a2d-681a273fa00c",
+    "data": [
+      {
+        "text": "i want to logout",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

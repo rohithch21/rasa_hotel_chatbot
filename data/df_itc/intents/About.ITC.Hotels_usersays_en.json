@@ -1,0 +1,26 @@
+[
+  {
+    "id": "255e7922-4053-451b-a011-57cfb0fd283d",
+    "data": [
+      {
+        "text": "tell me something about ITC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d7bcbcde-ad28-464b-a52b-447eb51935a7",
+    "data": [
+      {
+        "text": "About ITC Hotels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

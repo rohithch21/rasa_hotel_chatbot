@@ -1,0 +1,20 @@
+[
+  {
+    "id": "679532bf-29d7-49bb-b0e6-c2c01e88177d",
+    "data": [
+      {
+        "text": "user object visit ",
+        "userDefined": false
+      },
+      {
+        "text": "khadi",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

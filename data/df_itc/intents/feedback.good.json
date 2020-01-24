@@ -1,0 +1,59 @@
+{
+  "id": "53dff6d9-af71-4a60-9090-9bc7ba9e5567",
+  "name": "feedback.good",
+  "auto": true,
+  "contexts": [
+    "feedback"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "feedback",
+      "affectedContexts": [
+        {
+          "name": "feedback",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "97cf3b14-dbf6-4274-ab2d-479fdf182a18",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Thank you for your feedback"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:satisfactory service"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

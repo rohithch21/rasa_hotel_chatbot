@@ -1,0 +1,42 @@
+{
+  "id": "13758777-0b46-42ee-9b0a-900a87df9966",
+  "parentId": "04aad04a-c10d-4a7a-99d8-697b0cebd2e9",
+  "rootParentId": "04aad04a-c10d-4a7a-99d8-697b0cebd2e9",
+  "name": "visit-zoom - no",
+  "auto": true,
+  "contexts": [
+    "visit-zoom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "visit-zoom.visit-zoom-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Sad to see you miss out on our zoo experience. Goodbye."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:options"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,86 @@
+{
+  "id": "2a8e5066-980e-4755-9549-7ffcd7ff9e9a",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coupon",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "28e4d42e-1e78-4ed7-ad28-bfe145ff0231",
+          "required": true,
+          "dataType": "@greeting",
+          "name": "greeting",
+          "value": "$greeting",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "speak:Greetings. Welcome to Invento"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:$greeting. Welcome to ITC."
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "OFFERS FOR YOU",
+            "data": [
+              {
+                "title": "https://settings.mitrarobot.com/media/Screenshot_2019-07-18_at_8.12.22_PM.png",
+                "image_url": "https://settings.mitrarobot.com/media/New_Project_5.jpg",
+                "message": "demographics"
+              },
+              {
+                "title": "https://settings.mitrarobot.com/media/coupon2-large_kQtrhHf.jpeg",
+                "image_url": "https://settings.mitrarobot.com/media/ITC_logo_black.jpg",
+                "message": "hotel info"
+              },
+              {
+                "title": "https://settings.mitrarobot.com/media/Screenshot_2019-07-18_at_8.04.07_PM.png",
+                "image_url": "https://settings.mitrarobot.com/media/New_Project_4.jpg",
+                "message": "play quiz"
+              }
+            ]
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "disableSpeechRecognition:true"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

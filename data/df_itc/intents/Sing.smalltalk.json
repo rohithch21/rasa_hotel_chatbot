@@ -1,0 +1,38 @@
+{
+  "id": "a29dea66-2d8a-454f-a9c4-78c7cae8b0e7",
+  "name": "Sing.smalltalk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sing? Are you kidding me? I sound like a broken drum.",
+            "Well i would love to sing but I don\u0027t want people here to run away.",
+            "I can sing but that will make your day worse",
+            "I am more of listener, why don\u0027t you sing for me?",
+            "I don\u0027t sing well, I am looking for a hindustani music teacher who could teach me. Do you know anyone?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

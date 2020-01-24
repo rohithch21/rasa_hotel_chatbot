@@ -1,0 +1,102 @@
+{
+  "id": "37b740be-4b9c-4f58-b1a2-608ebbb4b2bf",
+  "name": "option.offers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "offers",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Check out Offers"
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "All Offers",
+            "data": [
+              {
+                "title": "Upto 40% + extra 30% off on Fab Hotels",
+                "image_url": "https://settings.mitrarobot.com/media/d-fab-hotels.jpg"
+              },
+              {
+                "title": "5% cashback on booking holidays on SOTC",
+                "image_url": "https://settings.mitrarobot.com/media/d-sotc.jpg"
+              },
+              {
+                "title": "Upto 10% cashback on iPhone.",
+                "image_url": "https://settings.mitrarobot.com/media/d-iphone.jpg"
+              },
+              {
+                "title": "5% cashback at Brand Factory stores",
+                "image_url": "https://settings.mitrarobot.com/media/d-brand-factory.jpg"
+              },
+              {
+                "title": "Flat 20% off on Lybrat",
+                "image_url": "https://settings.mitrarobot.com/media/d-lybrate.jpg"
+              },
+              {
+                "title": "Mother Day - Phonepe Offer",
+                "image_url": "https://settings.mitrarobot.com/media/d-mother-dairy.jpg"
+              },
+              {
+                "title": "5% Cashback at AJIO",
+                "image_url": "https://settings.mitrarobot.com/media/d-ajio.jpg"
+              },
+              {
+                "title": "10% instant discount at Flipkart",
+                "image_url": "https://settings.mitrarobot.com/media/d-flipkart.jpg"
+              },
+              {
+                "title": "5% cahback on Autopay setup",
+                "image_url": "https://settings.mitrarobot.com/media/d-autopay.jpg"
+              },
+              {
+                "title": "Offers on Bill Payments \u0026 Recharges",
+                "image_url": "https://settings.mitrarobot.com/media/d-online-payment.jpg"
+              },
+              {
+                "title": "International Travel Offers",
+                "image_url": "https://settings.mitrarobot.com/media/d-mmt-international.jpg"
+              },
+              {
+                "title": "Exiting Offers in Karnataka",
+                "image_url": "https://settings.mitrarobot.com/media/d-city-karnataka.jpg"
+              },
+              {
+                "title": "5% Cashback at Arvind Stores",
+                "image_url": "https://settings.mitrarobot.com/media/d-arvind-store.jpg"
+              },
+              {
+                "title": "5% Cashback at Da-Milano stores",
+                "image_url": "https://settings.mitrarobot.com/media/d-da-milano.jpg"
+              },
+              {
+                "title": "5% cashback at Pepe Jeans",
+                "image_url": "https://settings.mitrarobot.com/media/d-pepe-jeans.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

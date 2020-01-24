@@ -1,0 +1,58 @@
+[
+  {
+    "id": "d3184c0c-8b43-41df-8707-b03c3a24f621",
+    "data": [
+      {
+        "text": "travel",
+        "alias": "category",
+        "meta": "@category",
+        "userDefined": false
+      },
+      {
+        "text": " booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e68706a-90ab-409e-a9b4-f277bbafe5b1",
+    "data": [
+      {
+        "text": "info on ",
+        "userDefined": false
+      },
+      {
+        "text": "travel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " center",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b79984e6-4f7e-4714-9512-b2b2e2042d9a",
+    "data": [
+      {
+        "text": "travel",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " center",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

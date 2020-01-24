@@ -1,0 +1,30 @@
+[
+  {
+    "id": "51a1c033-3182-45f7-9978-72dbb4ef1bb1",
+    "data": [
+      {
+        "text": "user revisit suggestion product ",
+        "userDefined": false
+      },
+      {
+        "text": "khvghkv",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "malex",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

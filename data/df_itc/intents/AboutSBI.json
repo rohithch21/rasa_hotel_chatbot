@@ -1,0 +1,37 @@
+{
+  "id": "f53bb42d-09c1-434b-ae3f-75fa13ac52d8",
+  "name": "AboutSBI",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:SBI Cards \u0026 Payments Services Pvt. Ltd. is a payment solutions provider in India. It is incorporated as a joint venture between the State Bank of India, India\u0027s largest bank, and the Carlyle Group. They are headquartered in Gurgaon, Haryana,Delhi NCR and have branches in over 50 cities across India."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:options"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

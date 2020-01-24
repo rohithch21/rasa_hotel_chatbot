@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ecf7d4cc-93fd-4e52-8528-7882b25bc10a",
+    "data": [
+      {
+        "text": "user revisit signup ",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,253 @@
+{
+  "id": "83df4528-7c26-4ac4-9fc0-37395cccf462",
+  "name": "option.quiz",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quiz",
+      "affectedContexts": [
+        {
+          "name": "quiz",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak: Brace up to have some fun!",
+            "speak: I love people who are up for challenge. Lets begin the quiz",
+            "speak: Aha! I sense a curious one. Let us start the quiz"
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "",
+            "data": [
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "Penicillin was discovered in 1928 by which Scottish scientist?",
+                "options": [
+                  "Alexander Flemming",
+                  "Louis Pasteur",
+                  "Nikola tesla",
+                  "Marie Curie",
+                  "End Quiz"
+                ],
+                "answer": "Alexander Flemming"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "Who lived at 221B, Baker Street, London?",
+                "options": [
+                  "Sherlock Holmes",
+                  "James",
+                  "Frankestein",
+                  "Defenders",
+                  "End Quiz"
+                ],
+                "answer": "Sherlock Holmes"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "In humans, what is the only internal organ capable of regenerating lost tissue?",
+                "options": [
+                  "None of them",
+                  "Liver",
+                  "Pancreas",
+                  "Skin",
+                  "End Quiz"
+                ],
+                "answer": "Liver"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "What kind of animal is the longest in the world?",
+                "options": [
+                  "Snake",
+                  "Jellyfish",
+                  "Worm",
+                  "Whale",
+                  "End Quiz"
+                ],
+                "answer": "Worm"
+              },
+              {
+                "video_url": "",
+                "image_url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/05/06/17/gettyimages-931351002.jpg",
+                "question": "What is this popular phenomenon called?",
+                "options": [
+                  "Aurora Borealis",
+                  "Star explosion",
+                  "Stardust",
+                  "Nebulas",
+                  "End Quiz"
+                ],
+                "answer": "Aurora Borealis"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "Where is Notre Dame?",
+                "options": [
+                  "Paris",
+                  "New York",
+                  "Stockholm",
+                  "Amsterdam",
+                  "End Quiz"
+                ],
+                "answer": "Paris"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "What color is the M in McDonald’s?",
+                "options": [
+                  "Red",
+                  "Blue",
+                  "Green",
+                  "Yellow",
+                  "End Quiz"
+                ],
+                "answer": "Yellow"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "NaCl is the chemical formula for which common household chemical?",
+                "options": [
+                  "Table Salt",
+                  "Hydrochloric acid",
+                  "Caustic soda",
+                  "Ammonia",
+                  "End Quiz"
+                ],
+                "answer": "Table Salt"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "Which planet’s moons are nearly all named after Shakespearean characters??",
+                "options": [
+                  "Mars",
+                  "Saturn",
+                  "Earth",
+                  "Uranus",
+                  "End Quiz"
+                ],
+                "answer": "Uranus"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "What are the only two letters of the alphabet that do not appear on the Periodic Table??",
+                "options": [
+                  "P and R",
+                  "J and Q",
+                  "A and S",
+                  "W and Y",
+                  "End Quiz"
+                ],
+                "answer": "J and Q"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "In the human body, what is the hallux?",
+                "options": [
+                  "Elbow joint",
+                  "thigh bone",
+                  "Big toe",
+                  "Nose cartilage",
+                  "End Quiz"
+                ],
+                "answer": "Big toe"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "The scientific unit named after Sir Isaac Newton measures what?",
+                "options": [
+                  "Force",
+                  "Pressure",
+                  "Velocity",
+                  "Viscosity",
+                  "End Quiz"
+                ],
+                "answer": "Force"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "What inorganic molecule is produced by lightning??",
+                "options": [
+                  "Ozone",
+                  "helium",
+                  "Nitrogen",
+                  "Potassium",
+                  "End Quiz"
+                ],
+                "answer": "Ozone"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "How many electrons does a hydrogen atom have?",
+                "options": [
+                  "Three",
+                  "Two",
+                  "Four",
+                  "One",
+                  "End Quiz"
+                ],
+                "answer": "one"
+              },
+              {
+                "video_url": "",
+                "image_url": "",
+                "question": "Which scientist is considered the father of modern genetics?",
+                "options": [
+                  "Gregor Mendel",
+                  "Charles Darwin",
+                  "Euclid",
+                  "Jagdish Chandra Bose",
+                  "End Quiz"
+                ],
+                "answer": "Gregor Mendel"
+              }
+            ]
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:quiz question type"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

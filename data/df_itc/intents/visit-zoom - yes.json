@@ -1,0 +1,42 @@
+{
+  "id": "4463bfc1-afc0-43a1-8ebd-55f7c25fd50e",
+  "parentId": "04aad04a-c10d-4a7a-99d8-697b0cebd2e9",
+  "rootParentId": "04aad04a-c10d-4a7a-99d8-697b0cebd2e9",
+  "name": "visit-zoom - yes",
+  "auto": true,
+  "contexts": [
+    "visit-zoom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "visit-zoom.visit-zoom-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:book a cab to the zoo"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Booking your cab. Please give details of the booking."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

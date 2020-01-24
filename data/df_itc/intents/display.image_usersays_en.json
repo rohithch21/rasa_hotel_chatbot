@@ -1,0 +1,20 @@
+[
+  {
+    "id": "c4dd890f-03d8-461b-9423-55b53fc73aa4",
+    "data": [
+      {
+        "text": "display image ",
+        "userDefined": false
+      },
+      {
+        "text": "qwertty",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

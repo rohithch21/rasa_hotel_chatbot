@@ -1,0 +1,61 @@
+{
+  "id": "9fd1071b-94e6-4456-b431-0b69e64b14d5",
+  "parentId": "b415a14b-1bce-49d9-96fe-0873b6dea35d",
+  "rootParentId": "b415a14b-1bce-49d9-96fe-0873b6dea35d",
+  "name": "concierge - select.number",
+  "auto": true,
+  "contexts": [
+    "concierge-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "concierge.concierge-selectnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4f4dc88f-b532-4e82-90e8-dbef52b0708f",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "speak:Please give your room number."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak: I have informed our concierge who will be in touch with you shortly."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:options"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

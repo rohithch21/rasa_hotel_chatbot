@@ -1,0 +1,20 @@
+[
+  {
+    "id": "e5f805f2-2e35-447b-9a57-af057dd791a7",
+    "data": [
+      {
+        "text": "quiz.question.type - video ",
+        "userDefined": false
+      },
+      {
+        "text": "oye",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

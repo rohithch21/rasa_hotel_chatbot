@@ -1,0 +1,28 @@
+[
+  {
+    "id": "123960bb-deff-4614-8d9a-c3592f1575b3",
+    "data": [
+      {
+        "text": "female",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " suggestion product ",
+        "userDefined": false
+      },
+      {
+        "text": "35",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " minus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "6686ec50-9142-43e2-9c6d-778a2f6deb63",
+    "data": [
+      {
+        "text": "quiz question type - image ",
+        "userDefined": false
+      },
+      {
+        "text": "oye",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

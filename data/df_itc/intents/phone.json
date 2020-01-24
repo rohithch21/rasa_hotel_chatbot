@@ -1,0 +1,65 @@
+{
+  "id": "a7bcd836-9f87-4075-9495-7c1edef3a184",
+  "name": "phone",
+  "auto": true,
+  "contexts": [
+    "phone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "phone",
+      "affectedContexts": [
+        {
+          "name": "phone",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "961043c0-5463-42ef-851f-fc94bea03b67",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "speak:Phone number please"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Please edit if required and submit."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "image:https://imagizer.imageshack.com/v2/821x415q90/923/DxAXmN.jpg"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

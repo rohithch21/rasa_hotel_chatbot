@@ -1,0 +1,67 @@
+{
+  "id": "d6ec96da-12db-4d5c-9302-a1925f93243d",
+  "name": "female.suggestion.product.35-",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "options",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Greetings Madam, I can interest you with our amenities specifically designed for you."
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "title": "Options",
+            "data": [
+              {
+                "title": "Spa",
+                "subtitle": "Relax with massages",
+                "image_url": "https://image.freepik.com/free-photo/asian-woman-spa-salon_1421-3764.jpg"
+              },
+              {
+                "title": "Cafe",
+                "subtitle": "Restaurants and Cafe around the hotel",
+                "image_url": "https://content3.jdmagicbox.com/comp/chennai/f3/044pxx44.xx44.121023171420.a8f3/catalogue/cafe-mercara-express-itc-grand-chola--guindy-chennai-fast-food-d6799.jpg"
+              },
+              {
+                "title": " Fitness center",
+                "subtitle": "Highly equipped Gymnasium ",
+                "image_url": "https://image3.mouthshut.com/images/imagesp/925750340s.jpg"
+              },
+              {
+                "title": "Swimming Pool",
+                "subtitle": "Relax in our pools.. ",
+                "image_url": "https://www.riomacau.com/wp-content/uploads/2018/02/swimmingpool.jpg"
+              },
+              {
+                "title": "Recreation and entertainment ",
+                "subtitle": "Movie options and Activites",
+                "image_url": "https://travelandleisureindia.in/wp-content/uploads/2019/02/A-Venetian-Surprise-Feature.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

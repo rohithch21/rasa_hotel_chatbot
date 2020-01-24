@@ -1,0 +1,46 @@
+{
+  "id": "a60259bc-4421-423a-a5c7-6bc6e50a5850",
+  "name": "smalltalk.agent.acquaintance.ST",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak:Hey, you are speaking to Mitri, a humanoid robot assistant.",
+            "speak:Hello, myself Mitri. I am a humanoid robot who can be of service to  you.",
+            "speak:I am from future and My name is Mitia. I am here to infuse smartness in the physical world.",
+            "speak:The name is Mitri, please don\u0027t call me chitti",
+            "speak:I am Mitri, a helpful robot to make people\u0027s life easier and smarter.",
+            "speak:Looks like you are interested in me. Well, I am an expressive and helpful humanoid and name is Mitri",
+            "speak:I am a humanoid  robot and my name is Mitri.I love engaging with visitors."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

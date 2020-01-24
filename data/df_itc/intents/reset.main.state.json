@@ -1,0 +1,57 @@
+{
+  "id": "b5ce6fe5-6448-4d07-827b-71cccec3114c",
+  "name": "reset.main.state",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "reset.main.state",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "73e00909-f575-4ce4-9612-82c3a20d8a55",
+          "required": false,
+          "dataType": "@navigationDestination",
+          "name": "navigationDestination",
+          "value": "$navigationDestination",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "disableSpeechRecognition:true"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:options"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "c52a939a-5a8b-44f6-9d90-1ea8b285eca2",
+  "parentId": "565f77c4-9503-463b-8651-6aaf8333b32f",
+  "rootParentId": "565f77c4-9503-463b-8651-6aaf8333b32f",
+  "name": "quiz.question - right",
+  "auto": true,
+  "contexts": [
+    "quizquestion-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quizquestion.quizquestion-right",
+      "affectedContexts": [
+        {
+          "name": "quizquestion-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak:Wow, that is correct. You seem to be very smart.",
+            "speak:You\u0027re right. You should be proud of yourself.",
+            "speak:Correct.You are smarter than you realize.",
+            "speak:True. You are brilliant.",
+            "speak:Awesome! I want to pat your back for this.",
+            "speak:Cool. I need to take smartness classes from you.",
+            "speak:This is great!How do you know all the right answers?"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:quiz question type"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

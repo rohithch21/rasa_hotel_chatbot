@@ -1,0 +1,29 @@
+[
+  {
+    "id": "7d210295-ca76-45c1-a217-74cb71955dcc",
+    "data": [
+      {
+        "text": "user ",
+        "userDefined": false
+      },
+      {
+        "text": "first",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " visit ",
+        "userDefined": false
+      },
+      {
+        "text": "male",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,288 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    triggers: utter_greet
+- goodbye:
+    triggers: utter_goodbye
+- female.suggestion.product.35-
+- meeting-room1
+- demographics - picture
+- feedback.team's.average.resolution.time
+- on.video.end
+- user.first.visit.coupon
+- user.revisit.signup
+- concierge
+- quiz.question.type
+- options
+- start.patrol
+- reset.face.away
+- display.image
+- soup-menu
+- business-center
+- option.human.takeover
+- male.suggestion.product.40-
+- demographics
+- hall-events
+- twitter.success
+- option.quiz.retry
+- Default Welcome Intent
+- reached.shelf
+- reached.checkout
+- bar
+- nonveg-appetiser-menu
+- cab-booking
+- feedback.that.is.helpful
+- sign.up.first.visit
+- flight-booking
+- nav.shelf
+- user.first.visit
+- option.offers
+- visit-zoom - no
+- female.suggestion.product.35+
+- quiz.question
+- food-menu
+- chocolates
+- phone
+- ball-room2
+- travel-center
+- fitness-center
+- mains-menu
+- face.away
+- ball-room1
+- smalltalk.agent.age
+- quiz.question.type - image
+- veg-menu
+- smalltalk.agent.acquaintance.ST
+- feedback.okay
+- about
+- feedback.unsatisfactory
+- Joke.smalltalk
+- option.navigation
+- twitter.cancel
+- visit-zoom
+- feedback.bad
+- stop.patrol
+- feedback.poor.customer.service
+- motor.functions.disabled
+- visit-zoom - yes
+- quiz.question.type - video
+- distance-destinstion
+- visitor.form.revisit
+- quiz.question - wrong
+- feedback.satisfactory
+- check.server.settings
+- quiz.question.type - end
+- cafe
+- user.object.visit
+- male.suggestion.product.40+
+- reset.main.state
+- send.to.phone
+- ITC.options
+- option.quiz
+- feedback.angry
+- option.categories
+- who made you
+- visitor.form.firstvisit.greeting
+- Dance.smalltalk
+- entertainment
+- spa
+- option.review
+- play.video
+- rice-menu
+- feedback.no.thanks
+- amenities-menu:
+    triggers: utter_amenities_menu
+- option.quiz.quit
+- meeting-room2
+- user.revisit
+- member.form.feedback
+- pool
+- smalltalk.confirmation.cancel
+- phone.invalid
+- nav.checkout
+- tweet.pic
+- feedback.great
+- weather
+- manual.user.register
+- feedback.good
+- Sing.smalltalk
+- concierge - select.number
+- About.ITC.Hotels:
+    triggers: utter_ITC_info
+- feedback.not.interested
+- sign.up
+- user.revisit.suggestion.product
+- quiz.question - right
+- amenitites-menu
+entities:
+- navigationDestination
+- date
+- category
+- intercities
+- age
+- any
+- phone-number
+- time
+- number
+- geo-city
+- gender
+- answers
+- greeting
+templates:
+  utter_ITC_info:
+  - text: 5 start premium hotel enriched with facilities and services.
+  utter_ITC_options:
+  - custom:
+      data:
+      - title: About ITC WelcomHotel
+      - image_url: https://settings.mitrarobot.com/media/welcome_hotel.jpg
+      - subtitle: Discover responsible luxury
+      - title: Feedback
+      - image_url: https://settings.mitrarobot.com/media/welcome_hotel.jpg
+      - subtitle: Provide your valuable feedback
+      - title: Amenities
+      - image_url: https://settings.mitrarobot.com/media/welcome_hotel.jpg
+      - subtitle: Check out the amenities we provide
+      - title: Mahjong Restaurant
+      - image_url: https://settings.mitrarobot.com/media/welcome_hotel.jpg
+      - subtitle: Aromas and Flavours
+      - title: Club ITC
+      - image_url: https://settings.mitrarobot.com/media/welcome_hotel.jpg
+      - subtitle: Sign up to earn rewards
+      - title: Meetings and Events
+      - image_url: https://settings.mitrarobot.com/media/welcome_hotel.jpg
+      - subtitle: Current Schedule
+      title: Options
+  utter_amenities_menu:
+  - buttons:
+    - payload: Business Center
+      title: Business Center
+    - payload: Fabelle chocolates
+      title: Fabelle Chocolates
+    - payload: Brewery
+      title: Brewery
+    - payload: Travel Center
+      title: Travel Center
+    - payload: Cafe
+      title: Cafe
+    - payload: Entertainment
+      title: Entertainment
+    - payload: Spa
+      title: Spa
+    - payload: Fitness Center
+      title: Fitness Center
+    text: 'These are the amenities provided at the hotel. '
+  utter_bar:
+  - text: speak:Unwind after a long day at our Bar at ITC Hotels. We serve the choicest
+      of malts, liquors and imported spirits which guarantees to lift up your mood.
+      Relax and sip on your favorite drinks at this elegant bar with relaxed seating.
+  utter_business:
+  - text: At ITC, we are dedicated to serving your business needs. We offer the right
+      blend of service, luxury, and quiet efficiency, customizing our facilities to
+      suit your every need. Armed with amenities like telephone, high-speed Internet
+      and efficient secretarial service, our full-fledged, fully equipped Business
+      Center will meet all your requirements.
+  utter_cafe:
+  - text: Indulge in the contemporary and stylish grab and go delicatessen located
+      at our Hotel, offering an extensive range of tea, coffee, and other beverages
+      along with freshly baked treats and gourmet retail goods. It’s the perfect new
+      spot to grab a cup of freshly brewed coffee even at midnight with your loved
+      ones.
+  utter_chocolates:
+  - text: speak:Fabelle is a premium brand of chocolates made from the best cocoa
+      from around the world to give your taste buds a treat of tasting the real chocolate.
+      Feel free to get a free sample and I am sure you will want to have more.
+  utter_entertainment:
+  - text: speak:Here at ITC we not only care about your wellness but also your experience,
+      You can explore and engage in our world-class In-house entertainment avenues
+      or try out the refreshing spa that is curated to help you relax and dwell in
+      the ultimate marquee experience
+  utter_goodbye:
+  - text: Goodbye!
+  utter_greet:
+  - text: Hey there!
+  utter_gym:
+  - text: peak:Come on...get up, the fitness center is right here. You can head into
+      our expansive Fitness Studio featuring a full complement of Technogym equipment;
+      steam rooms and saunas in addition to a skilled training team ready to help
+      you achieve your fitness goals.
+  utter_mains_menu:
+  - image: https://static.eazydiner.com/resized/1920X/restaurant%2F657735%2Fmenu%2Fmenu01542276730511.jpg
+    text: speak:Take a look and select your main course. Let us take you on an excursion
+      to the Dynasties of mythical China, drawing on its several millennia of culinary
+      history back to the era of Mahjong!
+  utter_nonveg_menu:
+  - text: speak:Take a look and pick your non vegetarian appetizers. Let us take you
+      on an excursion to the Dynasties of mythical China, drawing on its several millennia
+      of culinary history back to the era of Mahjong!
+    image: https://static.eazydiner.com/resized/1920X/restaurant%2F657735%2Fmenu%2Fmenu51542276733107.jpg
+  utter_options:
+  - custom:
+      data:
+      - title: https://settings.mitrarobot.com/media/Screenshot_2019-07-18_at_8.12.22_PM.png
+      - image_url: https://settings.mitrarobot.com/media/New_Project_5.jpg
+      - message: demographics
+      - title: https://settings.mitrarobot.com/media/coupon2-large_kQtrhHf.jpeg
+      - image_url: https://settings.mitrarobot.com/media/ITC_logo_black.jpg
+      - message: hotel info
+      - title: https://settings.mitrarobot.com/media/Screenshot_2019-07-18_at_8.04.07_PM.png
+      - image_url: https://settings.mitrarobot.com/media/New_Project_4.jpg
+      - message: play quiz
+      title: OFFERS FOR YOU
+  utter_options.feedback:
+  - text: It was great having you here. Please rate your experience . Your feedback
+      helps us create better experience for you and our other users.
+  utter_restaurant:
+  - buttons:
+    - payload: Veg Appetisers
+      title: Veg Appetisers
+    - payload: Non Veg Appetisers
+      title: Non Veg Appetisers
+    - payload: The Mains
+      title: The Mains
+    - payload: The Soups
+      title: The Soups
+    text: ' speak:Presenting the aromas and flavors of the orient '
+  utter_soup_menu:
+  - image: https://static.eazydiner.com/resized/1920X/restaurant%2F657735%2Fmenu%2Fmenu61542276733484.jpg
+    text: speak:Take a look and pick your soup. Let us take you on an excursion to
+      the Dynasties of mythical China, drawing on its several millennia of culinary
+      history back to the era of Mahjong!
+  utter_spa:
+  - text: speak:Treat yourself with the luxuriously soothing environment and welcoming
+      therapists that will help you relax. You have an option to choose and indulge
+      from a comprehensive wellness menu that will uplift your tired body and soul.
+      Our catalog is catered with skilled therapists, who are dedicated to delivering
+      the best-in-class experience.
+  utter_travel:
+  - text: speak:We offer a Travel Desk facility to help you with your travel queries.
+      Whether you want to book a cab or need a complete travel plan to visit the most
+      popular places in the city, we are at your service at any time of the day.
+  utter_veg_menu:
+  - image: https://static.eazydiner.com/resized/1920X/restaurant%2F657735%2Fmenu%2Fmenu41542276732645.jpg
+    text: speak:Take a look and pick your vegetarian appetizer. Let us take you on
+      an excursion to the Dynasties of mythical China, drawing on its several millennia
+      of culinary history back to the era of Mahjong!
+actions:
+- utter_greet
+- utter_goodbye
+- utter_options.feedback
+- utter_ITC_info
+- utter_ITC_options
+- utter_options
+- utter_amenities_menu
+- utter_cafe
+- utter_business
+- utter_travel
+- utter_chocolates
+- utter_bar
+- utter_gym
+- utter_spa
+- utter_entertainment
+- utter_restaurant
+- utter_veg_menu
+- utter_nonveg_menu
+- utter_mains_menu
+- utter_soup_menu

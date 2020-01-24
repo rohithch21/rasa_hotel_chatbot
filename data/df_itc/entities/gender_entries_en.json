@@ -1,0 +1,30 @@
+[
+  {
+    "value": "Madam",
+    "synonyms": [
+      "Madam",
+      "female"
+    ]
+  },
+  {
+    "value": "Miss.",
+    "synonyms": [
+      "Miss",
+      "femalex"
+    ]
+  },
+  {
+    "value": "Mr.",
+    "synonyms": [
+      "Mr",
+      "malex"
+    ]
+  },
+  {
+    "value": "Sir",
+    "synonyms": [
+      "Sir",
+      "male"
+    ]
+  }
+]

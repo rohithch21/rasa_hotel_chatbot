@@ -1,0 +1,167 @@
+{
+  "id": "f74d7a89-2380-4a1d-abe5-1e1b5a479cbc",
+  "name": "visitor.form.firstvisit",
+  "auto": true,
+  "contexts": [
+    "visitorfirstvisit"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "visitor.form.firstvisit",
+      "affectedContexts": [
+        {
+          "name": "visitorfirstvisit",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cd1aa71c-7b79-4a95-b2c8-152ebeea74a6",
+          "required": true,
+          "dataType": "@user-name",
+          "name": "user-name",
+          "value": "$user-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "6371b636-243e-4e87-b4e0-9ea138c7a392",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Phone?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b857ab10-dbc7-4f47-a795-624b15dd763e",
+          "required": false,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Email?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "fa1482ea-b71e-44f3-9386-7a4c9d2a45b4",
+          "required": false,
+          "dataType": "@company",
+          "name": "company",
+          "value": "$company",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Company?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "67294946-2fb9-4556-9614-2af2fdd89391",
+          "required": false,
+          "dataType": "@employee-name",
+          "name": "employee-name",
+          "value": "$employee-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Whom to meet?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7c62c6b3-f5fe-4fd9-af3e-ffe7a74d3659",
+          "required": false,
+          "dataType": "@purpose",
+          "name": "purpose",
+          "value": "$purpose",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Purpose?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4c2f9502-5d8f-4c52-851d-56b0caa889e4",
+          "required": false,
+          "dataType": "@course",
+          "name": "course",
+          "value": "$course",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Registration in progress"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "disableSpeechRecognition:true"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

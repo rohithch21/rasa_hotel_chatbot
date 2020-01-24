@@ -1,0 +1,52 @@
+{
+  "id": "5f5d217f-4884-4979-a46d-37fe003abdcd",
+  "name": "Joke.smalltalk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "\u003cspeak\u003eWhat did one ocean say to another one? \u003cbreak time\u003d\"3s\"/\u003e Nothing – They just waved. \u003c/speak\u003e",
+            "The world tongue-twister champion just got arrested. I hear they’re gonna give him a really tough sentence.",
+            "So what if I don’t know what “Armageddon” means? It’s not the end of the world.",
+            "I recently decided to sell my vacuum cleaner as all it was doing was gathering dust",
+            "I hate Russian dolls, they’re so full of themselves.",
+            "Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water.",
+            "The future, the present and the past walked into a bar. Things got a little tense.",
+            "eBay is so useless. I tried to look up lighters and all they had was 13,749 matches.",
+            "My wife just found out I replaced our bed with a trampoline; she hit the roof.",
+            "I wasn\u0027t originally going to get a brain transplant, but then I changed my mind.",
+            "I just found out I\u0027m colorblind. The diagnosis came completely out of the purple.",
+            "Can I have your picture so I can show Santa what I want for Christmas?",
+            "I\u0027m great at multitasking. I can waste time, be unproductive, and procrastinate all at once."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

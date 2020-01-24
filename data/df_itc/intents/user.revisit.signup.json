@@ -1,0 +1,67 @@
+{
+  "id": "83c3fbfb-360f-4678-bd37-da7cbbde0ab0",
+  "name": "user.revisit.signup",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.revisit.signup",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "71a41446-d4e4-40a8-a92d-134726fc2118",
+          "required": false,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4a31d0eb-ceaf-4a08-ab54-8e8b3d90081f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak: Hi $gender $any , sorry I can\u0027t give you this coupon since you have already selected one. We will add the chosen card to your profile.",
+            "speak: Hi $gender $any ,great to have you back again but you\u0027ve already a coupon added. We will add the chosen card to your profile.",
+            "speak: Hi $gender $any , I remember you but sadly you can\u0027t avail this coupon since you already have one. We will add the chosen card to your profile."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:tweet with hashtag"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

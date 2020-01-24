@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1a1c4641-d8a4-454e-951a-04f52c63c047",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "john",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b71b090-680e-45f8-bc4f-56f213c8dfdb",
+    "data": [
+      {
+        "text": "majong",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b154d50f-da84-4a2a-a119-eabd02426a15",
+    "data": [
+      {
+        "text": "maha-jongg",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2977b793-4d30-4557-b37b-5488c6976ae7",
+    "data": [
+      {
+        "text": "maha jong",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17aa160e-96cd-47f9-b9d8-63cc07e63c8c",
+    "data": [
+      {
+        "text": "mahjong restaurant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "512025b1-19e4-4b5d-a746-3750eecdc44a",
+    "data": [
+      {
+        "text": "restaurant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "894505ac-3c41-47d4-896b-5a8b8a95d235",
+    "data": [
+      {
+        "text": "restaurant food menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

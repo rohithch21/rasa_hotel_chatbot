@@ -1,0 +1,75 @@
+[
+  {
+    "id": "a4dd12b8-6918-422c-b80f-69ce50436310",
+    "data": [
+      {
+        "text": "Club ITC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c96c809-7af2-420f-8de9-69cfec1806bb",
+    "data": [
+      {
+        "text": "rewards",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75de9abd-65bb-4658-9191-b3a6f7813d51",
+    "data": [
+      {
+        "text": "i want to register",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "439c66d2-0313-4f5f-afaf-4e8675437a8c",
+    "data": [
+      {
+        "text": "registration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73843efc-8bb3-427c-b857-fd90c0d0dc37",
+    "data": [
+      {
+        "text": "recognise me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "09931d85-308a-4d72-ad96-ea2ad7dbbc15",
+    "data": [
+      {
+        "text": "register me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "id": "f547336d-5608-4098-9b8f-2c0af6359f7b",
+  "name": "travel-center",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c77162e1-585d-4c9f-a75f-a7238a4c9458",
+          "required": false,
+          "dataType": "@category",
+          "name": "category",
+          "value": "$category",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:We offer a Travel Desk facility to help you with your travel queries. Whether you want to book a cab or need a complete travel plan to visit the most popular places in the city, we are at your service at any time of the day."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "be86805c-ff2c-4c2d-82dd-91a95efef5b8",
+    "data": [
+      {
+        "text": "About SBI card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f468e093-69f6-40c5-9332-424c53cdf12b",
+    "data": [
+      {
+        "text": "tell me about SBI Card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08937253-9579-4c92-801a-18434c6cf765",
+    "data": [
+      {
+        "text": "what is SBI card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

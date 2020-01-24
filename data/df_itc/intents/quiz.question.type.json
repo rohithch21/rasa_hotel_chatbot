@@ -1,0 +1,45 @@
+{
+  "id": "1ac26734-86fa-4add-9d4e-2a7210e1fb93",
+  "name": "quiz.question.type",
+  "auto": true,
+  "contexts": [
+    "quiz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quiz.question.type",
+      "affectedContexts": [
+        {
+          "name": "quizquestiontype-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "quiz",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

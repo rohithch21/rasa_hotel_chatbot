@@ -1,0 +1,41 @@
+{
+  "id": "ff416e91-c6ac-424b-9689-dd66b699a996",
+  "name": "option.review",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "member.form.revisit",
+      "affectedContexts": [
+        {
+          "name": "feedback",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak:It was great having you here. Please rate your experience . Your feedback helps us create better experience for you and our other users.",
+            "speak:Thank you for choosing to interact with me. I would love to know how i did.  Please give us your feedback."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

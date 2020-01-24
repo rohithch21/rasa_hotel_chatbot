@@ -1,0 +1,31 @@
+{
+  "id": "316b0db8-d8c0-419a-8704-19efb17cd99b",
+  "name": "pool",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:You got to check out our pool, it is a perfect spot to enjoy a cool drink on a hot summer’s day for everyone in the family. If you’re looking to mix up your morning routine, the pool also offers an assortment of aquatic fitness options including water aerobics, fitting for any range or ability. Looking for some more fun to soak up in the sun? Serve up an energizing experience every day at our pool."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

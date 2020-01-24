@@ -1,0 +1,30 @@
+[
+  {
+    "id": "3c61e6f8-fc85-447b-9369-851befbf212b",
+    "data": [
+      {
+        "text": "user revisit ",
+        "userDefined": false
+      },
+      {
+        "text": "khvghkv",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "malex",
+        "alias": "gender",
+        "meta": "@gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

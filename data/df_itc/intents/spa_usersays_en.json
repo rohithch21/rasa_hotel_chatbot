@@ -1,0 +1,38 @@
+[
+  {
+    "id": "45717c25-01e9-40ef-b3dd-9f83a330fc09",
+    "data": [
+      {
+        "text": "ladies spa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b58cc7c7-0fa2-4f6a-9759-20b42cc0e161",
+    "data": [
+      {
+        "text": "spa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cc264b11-bf40-494d-9cfc-996b1b7bbb76",
+    "data": [
+      {
+        "text": "info on spa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "80b756bd-59c0-4b92-b6d1-bb10ffd5a751",
+  "name": "chocolates",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Fabelle is a premium brand of chocolates made from the best cocoa from around the world to give your taste buds a treat of tasting the real chocolate. Feel free to get a free sample and I am sure you will want to have more."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

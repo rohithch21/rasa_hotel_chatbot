@@ -1,0 +1,42 @@
+{
+  "id": "d24d82d5-4fec-414f-892d-81a9270500d0",
+  "parentId": "1ac26734-86fa-4add-9d4e-2a7210e1fb93",
+  "rootParentId": "1ac26734-86fa-4add-9d4e-2a7210e1fb93",
+  "name": "quiz.question.type - end",
+  "auto": true,
+  "contexts": [
+    "quizquestiontype-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quiz.end",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Thank You for participation"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "disableSpeechRecognition:true"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "98b6fab6-c79c-48b3-abab-173ea1003695",
+  "name": "veg-menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Take a look and pick your  vegetarian appetizer. Let us take you on an excursion to the Dynasties of mythical China, drawing on its several millennia of culinary history back to the era of Mahjong!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "image:https://static.eazydiner.com/resized/1920X/restaurant%2F657735%2Fmenu%2Fmenu41542276732645.jpg"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:restaurant food menu"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

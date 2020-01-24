@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bd6e5096-74bb-4c0e-8eca-4063f6b7a8f5",
+    "data": [
+      {
+        "text": "office",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4806d958-c175-4774-8194-1b3778d1c74a",
+    "data": [
+      {
+        "text": "officers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c08d9cc1-f876-4f6c-9cb3-0c767698b890",
+    "data": [
+      {
+        "text": "Offers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "0970f5a7-fa14-401f-9a0c-adfb6fbfb4a3",
+    "data": [
+      {
+        "text": "how far is the ",
+        "userDefined": false
+      },
+      {
+        "text": "airport",
+        "alias": "intercities",
+        "meta": "@intercities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1dd47652-b11a-411a-bc77-1fe33e6ecdfc",
+    "data": [
+      {
+        "text": "what is the distance ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "alias": "answers",
+        "meta": "@answers",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "banashankari",
+        "alias": "intercities",
+        "meta": "@intercities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

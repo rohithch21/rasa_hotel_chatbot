@@ -1,0 +1,31 @@
+{
+  "id": "ff94bcc0-e39d-4abc-846b-9e8987c0fc5e",
+  "name": "cafe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Indulge in the contemporary and stylish grab and go delicatessen located at our Hotel, offering an extensive range of tea, coffee, and other beverages along with freshly baked treats and gourmet retail goods. It’s the perfect new spot to grab a cup of freshly brewed coffee even at midnight with your loved ones."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

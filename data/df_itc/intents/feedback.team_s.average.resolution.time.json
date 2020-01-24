@@ -1,0 +1,37 @@
+{
+  "id": "771075d7-13b3-40ea-9455-0dc8bf5bad8a",
+  "name": "feedback.team\u0027s.average.resolution.time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Sincere apologies for this and we would work on the feedback to improve our customer service. In the meanwhile, you can also reach us through other channels like E-Mail, Company Website whose response time is reportedly higher."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "suggestionChips:That is helpful~Not interested"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

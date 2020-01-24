@@ -1,0 +1,56 @@
+{
+  "id": "a6f419a7-c4de-4aaf-b28c-50adff902537",
+  "parentId": "565f77c4-9503-463b-8651-6aaf8333b32f",
+  "rootParentId": "565f77c4-9503-463b-8651-6aaf8333b32f",
+  "name": "quiz.question - wrong",
+  "auto": true,
+  "contexts": [
+    "quizquestion-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quizquestion.quizquestion-wrong",
+      "affectedContexts": [
+        {
+          "name": "quizquestion-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "speak:Oops! Wrong answer, but there are always other questions",
+            "speak:Okay,that is incorrect! Better luck next time.",
+            "speak:Wrong answer but that means you can learn more",
+            "speak:Incorrect answer but don\u0027t get disheartened. I would hate to see you sad.",
+            "speak:I am no judge but my program says it is an incorrect answer.",
+            "speak:Incorrect.It is okay all of us go wrong sometimes.",
+            "speak:Wrong, you can learn more on this and give correct answer next time."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "queuedMessage:quiz question type"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

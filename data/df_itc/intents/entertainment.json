@@ -1,0 +1,31 @@
+{
+  "id": "683cb96d-0159-4c49-8fdc-ac26d59fca3f",
+  "name": "entertainment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "speak:Here at ITC we not only care about your wellness but also your experience, You can explore and engage in our world-class In-house entrainment avenues or try out the refreshing spa that is curated to help you relax and dwell in the ultimate marquee experience."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "10e8df7c-9da4-46f9-ba21-c13ce9e67a19",
+    "data": [
+      {
+        "text": "fabelle chocolate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "52a6589a-b478-43bc-9ee5-ffb4286e5537",
+    "data": [
+      {
+        "text": "fabelle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c57e7036-4927-4ef3-83ee-71be9f58b2df",
+    "data": [
+      {
+        "text": "premium chocolates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "80893430-5f34-4a4b-ad55-5bbe0e15a84e",
+    "data": [
+      {
+        "text": "chocolates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

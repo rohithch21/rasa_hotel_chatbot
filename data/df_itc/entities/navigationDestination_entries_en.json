@@ -1,0 +1,49 @@
+[
+  {
+    "value": "entrance",
+    "synonyms": [
+      "entrance"
+    ]
+  },
+  {
+    "value": "entrance",
+    "synonyms": [
+      "entrance"
+    ]
+  },
+  {
+    "value": "exit",
+    "synonyms": [
+      "exit"
+    ]
+  },
+  {
+    "value": "fire extinguisher",
+    "synonyms": [
+      "extinguisher",
+      "fire",
+      "fire extinguisher"
+    ]
+  },
+  {
+    "value": "home",
+    "synonyms": [
+      "home"
+    ]
+  },
+  {
+    "value": "lift",
+    "synonyms": [
+      "elevator",
+      "left",
+      "lift",
+      "list"
+    ]
+  },
+  {
+    "value": "navigationDestination",
+    "synonyms": [
+      "navigationDestination"
+    ]
+  }
+]
